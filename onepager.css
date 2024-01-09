@@ -1,0 +1,16 @@
+
+body {background-color: rgb(54, 73, 88);
+}
+h1 {text-align: center;
+color:rgb(201, 228, 202) ;
+
+
+font-family: agbalumo;}
+h2 {font-family: agbalumo;
+color: rgb(135, 187, 162)}
+p {color: rgb(135, 187, 162);
+float: left 20px;
+background-color: rgb(59, 96, 100);
+padding: 15px;
+font-family: sans-serif;
+}

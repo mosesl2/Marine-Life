@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Marine Life</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Lemonada:wght@300&family=Tilt+Warp&display=swap" rel="stylesheet">
+
+
+<style>
+    @import url(onepager.css);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  
+}
+
+/* Style the header */
+.header {
+  
+  
+  text-align: center;
+ background: url(images/waves.png) repeat-x 50% 
+  ;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(135, 187, 162);
+  }
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: larger;
+}
+
+
+.topnav a:hover {
+  background-color: rgb(85, 130, 139);
+  color: black;
+  border: white 2px dashed;
+  font-family: Tilt Warp;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+em
+{color: whitesmoke;}
+p
+{font-family: Lemonada; word-spacing:  1 px;
+line-break: 1px;}
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Marine Life</h1>
+  <img src="images/turtle.webp" width="150px">
+</div>
+
+<div class="topnav">
+  <a href="https://en.wikipedia.org/wiki/Marine_reptile" target="_blank">Marine reptiles</a>
+  <a href="https://www.noaa.gov/education/resource-collections/marine-life/marine-mammals" target="_blank">Marine Mammals</a>
+  <a href="https://en.wikipedia.org/wiki/Fish" target="_blank">Fish</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>Marine Mammals</h2>
+    <p>Marine mammals range in species more than most people realize.
+<br>
+They aren't all traditional mammals like otters, covered in fur. some are <em>extremely</em> different, like dolphins or whales, which are both mammals even though they seem much more fish-like. Mammals in the ocean are very interesting, as even whales cannot breathe under the water.</p>  <img src="images/orcap.png" width="100%">
+  </div>
+  
+  <div class="column">
+    <h2>Fish</h2>
+    <p>Fish make up the majority of Marine and ocean life, being a wide category of animals.<br>
+    fish can be just about anything, from minnows in a pond to sharks in the ocean. they can be really anywhere where there is water, with little true restrictions to where they can survive.  </p> <img src="images/premium_photo-1661855023045-f5756af43f72.png" width="100%"><br>
+   
+  </div>
+  
+  <div class="column">
+    <h2>Reptiles</h2>
+    <p>Marine reptiles are some of the most iconic animals in the waters. The most recognizable of which is the sea turtle. But it is not the only one. animals like sea snakes and crocodiles are also marine reptiles. Marine reptiles are cold blooded, and some can breathe in the water. </p><img src="images/turtlep.png" width="100%"> 
+  </div>
+</div>
+<footer>&COPY;WHS web design 2023</footer>
+</body>
+</html>
